@@ -57,3 +57,29 @@ Além disso, o certificado ainda guarda a chave pública que é utilizada para c
 - Assim podemos trocar informacoes no site sem problemas se ha uma certificado de autoridade;
 
 - No caso um certificado digital assinado.
+
+
+#### Para saber mais: As chaves do HTTPS
+
+
+###### Metodo Criptografia assimetrica:
+- Chave publica (browser) e chave privada (para o servidor);
+- As chaves estao ligadas matematicamente;
+- Duas chaves diferentes envolvidas;
+- O problema eh que a criptografia desse jeito eh lenta.
+
+    ![alt text](image-1.png)
+
+###### Metodo Criptografia Simetrica:
+
+- Usa a mesma chave para cifrar e decifrar os dados;
+- Igual na vida real, quando usamos a mesma chave para abrir e fechar uma porta;
+- Acaba sendo mais rapida.
+
+    ![alt text](image-2.png)
+
+##### O HTTPS usa os dois metodos
+
+- Basicamente quando o cliente faz a requisicao tendo o certificado digital assinado, o HTTPS gera uma chave publica e do lado do servidor tem uma chave privada, sendo assim a conexao eh feita;
+
+- Porem ha um detalhe, quando se estabele uma conexao do cliente com o servidor o HTTPS cria uma chave simetrica, ou seja uma chave igual para que nesse e nossas proximas requisoes (por um periodo de tempo), se utilize dessa chave igual e consiga passar a request e a response de uma maneira mais rapida, atraves dessa chave simetrica "temporaria".
