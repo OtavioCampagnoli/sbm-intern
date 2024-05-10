@@ -38,4 +38,14 @@ O DNS tem como função realizar a tradução do nome de um domínio para o ende
 
 O DNS realiza a tradução do nome de um domínio para o endereço de IP. Existem vários servidores DNS no mundo e é fundamental para a nossa web o funcionamento deles.
 
-####
+#### Portas
+
+Conceito:
+    - Basicamente é  uma porta de um apartamento;
+    - Se essa porta nao tiver aberta você não consegue acessar, aquela página em especifico. Retornando a pagina hospedada naquela porta.
+
+- Usando HTTP:
+    - Porta 80 default (Não precisa preencher).
+
+- Usando HTTPS: 
+    - Porta default é a 443.
