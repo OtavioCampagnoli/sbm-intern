@@ -49,3 +49,11 @@ Conceito:
 
 - Usando HTTPS: 
     - Porta default é a 443.
+
+#### Porta padrão HTTP
+
+80 - Correto e como ela é o padrão você pode omiti-la no endereço.
+
+Como as portas padrões são conhecidas pelo navegador, elas podem ser omitidas ao escrevermos uma URL.
+
+Vários protocolos definem a sua porta padrão como por exemplo o FTP que usa 21 ou SSH que usa 22.
