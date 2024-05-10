@@ -57,3 +57,23 @@ Conceito:
 Como as portas padrões são conhecidas pelo navegador, elas podem ser omitidas ao escrevermos uma URL.
 
 Vários protocolos definem a sua porta padrão como por exemplo o FTP que usa 21 ou SSH que usa 22.
+
+#### Recursos
+
+Basicamente na URL temos o seguinte: https://dominio/porta/recurso
+- O recurso basicamente serve para a gente acessar literalmente um recurso que o site oferece;
+- Por exemplo eu posso passar um recurso chamado "dashboard"; "courses";
+- Estrutura padrão é a:
+    - protocolo://dominio:porta/caminho/recurso
+    - esse padrão é chamado de URL (Uniform Resource Locator);
+     ![alt text](image-3.png)
+
+
+#### URL vs IRL
+
+- URL (Uniform Resource Locator) -> Basicamente é um recurso unico que está num endereço;
+- URI (Uniform Resource Identifier);
+    - Existem URI's que identificam um recurso sem definir o endereço, nem o protocolo;
+- Uma URL é basicamente uma URI alocada.
+- Exemplo de URN (Uniform Resource Name): urn:cursos:alura:course:introducao-html-css
+![alt text](image-4.png)
