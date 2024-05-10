@@ -1,7 +1,7 @@
 ### Endereço e Domínio
 
 
-### Regras a serem seguidas
+#### Regras a serem seguidas
 
 
 - Especifica qual tipo de domínio
@@ -23,3 +23,19 @@
         Address: 172.217.30.3
         Name:	google.com.br
         Address: 2800:3f0:4001:83a::2003`
+
+#### O que é domínio
+
+O domínio é o nome do site na Web. Ele facilita a navegação do usuário, que não precisa lembrar o IP de cada site.
+
+
+Alternativa correta, o domínio é o nome do site na web e serve para facilitar a navegação do usuário, que acaba não precisando lembrar o IP de cada site.
+
+#### O que é DNS?
+
+O DNS tem como função realizar a tradução do nome de um domínio para o endereço de IP correspondente.
+
+
+O DNS realiza a tradução do nome de um domínio para o endereço de IP. Existem vários servidores DNS no mundo e é fundamental para a nossa web o funcionamento deles.
+
+####
