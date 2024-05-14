@@ -51,10 +51,55 @@ const listaFrutas = ["banana", "maçã", "pera"];
 
 ### Fila
 
+- conceito parecido sobre a stack;
+- FIFO (First In, First Out) primeiro a entrar, primeiro a sair;
+- inserir um elemento no final da fila;
+- remover um elemento no inicio da fila;
+- bilheteria do cinema;
+    - quem chega primeiro compra o ingresso;
+    - depois a pessoa sai e o proximo compra.
+
+### Deque
+
+- double-ended (fila de duas pontas);
+- variacao da fila;
+- aceita inserir elementos e remover elementos, tanto no inicio da fila como no final;
+- Podemos comparar, novamente, com uma fila de pessoas em um guichê de atendimento: uma pessoa idosa que chega é atendida antes (ou seja, não pode ser colocada no fim da fila), ao mesmo tempo que uma pessoa que entrou no final da fila pode desistir de esperar e ir embora (nesse caso, não podemos esperar a pessoa chegar na frente da fila para retirá-la de lá).
+
+### Fila circular
+
+- circular queue;
+- onde o ultimo elemento eh conectado com o primeiro elemento;
+- ![alt text](image.png)
+- tem objetivo de lidar com espacos vazios, que pode sem enfileirar apos a retirada, de elementos do inicio da fila;
+- alt-tab usa esse principio;
+
 ### Lista ligada
 
+- Arrays tem tamanho fixo;
+- lista ligads nao tem restricoes de tamanho;
+- inserir ou remover elementos no meio de um array, requer deloscamento de elementos;
+- lista ligadas usam ponteiros para unir os elementos;
+- cada elemento aponta para o endereco de memoria do proximo elemento da lista;
+- nao ha necessidade de deslocamento de elementos ao inserir ou remover, pois os elementos sao encadeados por ponteiros;
+- albuns de fotos;
+- playlists de musica ou video;
+- ![alt text](image-1.png)
 
 ### Conjunto
+
+- eh uma lista nao ordenada de elementos unicos;
+- onde voce nao consegue repetir valores;
+- muitas linguagens mais usadas ja tem metodos nativos para criar conjuntos;
+   ```javascript
+    const lista = [1, 1, 1, 3, 5, 7, 9];
+    const conjunto = new Set(lista);
+    console.log(conjunto); // Set(5) { 1, 3, 5, 7, 9 }
+    ```
+- baseado na conjunto matematico;
+- utilizado em um banco de dados SQL;
+- interseccao, uniao de elementos;
+
 
 
 ### Dicionarios ou hashmap
