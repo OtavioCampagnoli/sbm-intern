@@ -28,7 +28,26 @@
 
 ### Array
 
+- mais comum;
+- vetor/matriz ou arranjo;
+- uma eh lista ordenada de valores;
+
+`const listaNumeros = [4, 6, 2, 77, 1, 0];
+const listaFrutas = ["banana", "maçã", "pera"];
+`
+- os valores sempre sao acessados na mesma ordem;
+- voce navega por posicoes;
+- voce usa olha quando voce precisa organizar dados do mesmo tipo;
+- existe arrays de duas dimensoes, que usam usados para processamento de imagens;
+
 ### Pilha
+
+- similar a uma lista;
+- o conceito principal eh o LIFO (Last in First Out), ou seja ultimo a entrar, primeiro a sair;
+- inserir um elemento no topo da pilha;
+- remover o elemento do topo da pilha;
+- algumas linguagens ja tem metodos nativos para stack;
+- uso das setas de voltar e avancar no browser usam esse conceito.
 
 ### Fila
 
