@@ -22,3 +22,11 @@ Entra no repositorio, configuracoes e voce consegue adicionar um colaborador par
 
 - Git add -i
     - melhor comando para adicionar 
+
+### Git merge
+
+- basicamente voce seleciona a branch que voce quer receber o merge e muda pra ela, usando git switch nomeDaBranch
+- Depois voce pega e usa o git merge nomeDaBranch que voce vai pegar os codigos;
+- Por exemplo se eu tenho minha branch dev, e quero adicionar ela no branch main;
+    - eu entro escolho a main (git checkout main);
+    - e uso git merge dev;
