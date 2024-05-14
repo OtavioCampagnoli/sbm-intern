@@ -51,8 +51,38 @@
 - com o foco na melhora do processo de trabalho em geral;
 
 ### Qual a importância das cerimônias no Scrum?
-### Ferramentas
+
+- Da a oportunidade do time se comunicar de forma organizada;
+- Aumenta a transparencia, adaptacao e verificacao durante o processo de entrega da sprint;
+- 
+
+#### Ferramentas
+
+- trello; 
+    - permite organizar de forma visual e iterativa o fluxo das tarefas;
+    - interface simples de usar;
+- discord ou slack;
+- google meet;
+    - usado para realizar as reunioes de forma online;
+- miro;
+    - geralmente usado na retrospectiva;
+    - organizando atraves de quadros e notas adesivas;
+    - ajuda para ver quais processos estao dando certou ou errado;
 
 #### Planning Poker
 
-### Organizações que confiam nas nossas soluções corporativas
+- eh uma ferramenta de uso facil e intuitivo;
+- serve para criar estimativas mais precisas sobre o planejamento e execucao das sprints;
+- conversa interativa e descontraida para o time.
+
+### Outros recursos
+
+https://cursos.alura.com.br/course/agile-na-pratica?_gl=1*14mmu7n*_ga*OTUwOTg3MzIuMTcxNTM1MTA2NQ..*_ga_1EPWSW3PCS*MTcxNTcwMzAxNC40LjEuMTcxNTcwNTQ4My4wLjAuMA..*_fplc*aXVtODdTV1VRRUdwJTJGeGNOUE85dWM0czhZRWdNNm1pYWNQMmo4elFKT000YnNnaFpnek9mN2IlMkZLVEUlMkZWTzJhaW1PTDVGNmdRVmtZVXolMkZUTzAyTmxjcXE3VVBSN2RzclJrOGhlR3NMY0tNJTJGUGwxZTE0YTRaTkludnhpaE9ldyUzRCUzRA..
+
+https://www.alura.com.br/curso-online-scrum-agilidade-seu-projeto
+
+
+https://www.alura.com.br/curso-online-certificacao-pmi-acp-estrutura-scrum
+
+
+https://www.alura.com.br/podcast/hipsterstech-scrum-e-agile-para-alem-de-tecnologia-hipsters-115-a467
