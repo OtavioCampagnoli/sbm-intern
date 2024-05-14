@@ -104,11 +104,50 @@ const listaFrutas = ["banana", "maçã", "pera"];
 
 ### Dicionarios ou hashmap
 
+- sao mapas;
+- mapeados por chave e valor;
+- podem ter diferentes tipos de dados;
+- parecem com objetos;
+- tem referencias paras as chaves tendo mais performances nas buscas;
+- as chaves apontam para o endereco de memoria de seus valores;
+- depende da linguagem suportar os maps ou nao;
+- eh usado sempre que ha necessidade de associar dados e referencias para a consulta posterior;
+- informacoes de base de dados de um produto.
+
 
 ### Arvore
 
-### Grafo
+- estrutura nao-sequencial usada para armazenar dados hierarquicos;
+- representada por nodes organizados em niveis hierarquicos;
+- ![alt text](image-2.png)
+- a arvore binaria tem dois nos filhos por no;
+- podemos ter pais, irmaos e filhos;
+- nos com pelo menos um filho sao internos;
+- sem filhos sao externos ou folhas;
+- arvore de busca binaria:
+    - utiliza algoritmo de busca binaria;
+    - valores menores a esquerda da raiz e maiores a direita;
+- maior eficiencia na manipulacao de dados;
+    - buscar;
+    - alterar;
+    - incluir;
+    - remover elementos;
 
-### Conclusao
+
+### Heap
+
+- **Heap Binário:**
+  - Tipo especial de árvore binária usado para implementar filas de prioridade.
+  - Eficiente para extrair o valor mínimo ou máximo de uma lista.
+  - Pode ser um heap mínimo (min heap) ou máximo (max heap).
+  - Características:
+    - Todos os níveis, exceto o último, têm filhos à esquerda e à direita.
+    - No último nível, os filhos estão o mais à esquerda possível.
+    - Todos os nós devem obedecer a uma relação de ordem com seus filhos.
+
+- **Usos:**
+  - Em filas de prioridade, onde os elementos são organizados por ordem de prioridade.
+  - No algoritmo de ordenação heap sort.
+  - Em indexação de bancos de dados, algoritmos de tomada de decisão em aprendizado de máquina, e exibição de arquivos e pastas em sistemas operacionais.
 
 
