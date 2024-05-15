@@ -26,3 +26,7 @@ em>strong {
         0123456789ACBDEF | 0 - F | Hexadecimal | __ __ __
     */
 }
+
+.itens {
+    font-style: italic;
+}
