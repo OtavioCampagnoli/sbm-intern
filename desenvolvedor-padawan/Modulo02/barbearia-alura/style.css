@@ -8,5 +8,10 @@ p {
 }
 
 em>strong {
-    color: red;
+    color: #FF0000;
+    /*  RGB (255, 0, 0)
+        red;
+        0 - 255 (RGB)
+        0123456789ACBDEF | 0 - F | Hexadecimal | __ __ __
+    */
 }
