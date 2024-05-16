@@ -1,11 +1,23 @@
 header {
     background-color: #CCCCCC;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px; /*largura padrão da web*/
+    margin: 0 auto; /*Melhor maneira de centralizar uma div*/
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
 nav li {
     display: inline;
-    margin: 0 0 0 15px;
-    /*topo direta baixo esquerda*/
+    margin: 0 0 0 15px; /*topo direta baixo esquerda*/
 }
 
 nav a {
