@@ -139,3 +139,19 @@ form label, form legend {
     background-color: darkorange;
     transform: scale(1.2);
 }
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background-color: #555555;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 15px 8px;
+    width: 5%;
+}
