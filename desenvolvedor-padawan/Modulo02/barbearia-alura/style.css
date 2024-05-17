@@ -1,56 +1,157 @@
-body {}
-
-#banner {
-    width: 100%;
-}
-
-.principal {
+header {
     background-color: #CCCCCC;
-    padding: 30px;
+    padding: 20px 0;
 }
 
-.titulo-principal {
-    padding-left: 20px;
+.caixa {
+    position: relative;
+    width: 940px;
+    /*largura padrão da web*/
+    margin: 0 auto;
+    /*Melhor maneira de centralizar uma div*/
 }
 
-.titulo-centralizado {
-    text-align: center;
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
-p {
-    text-align: center;
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+    /*topo direta baixo esquerda*/
 }
 
-#missao {
-    font-size: 20px;
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
 
-em>strong {
-    color: #FF0000;
-    /*  RGB (255, 0, 0)
-        red;
-        0 - 255 (RGB)
-        0123456789ACBDEF | 0 - F | Hexadecimal | __ __ __
-    */
+nav a:hover {
+    color: #C78C79;
+    text-decoration: underline;
 }
 
-.itens {
-    font-style: italic;
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
 }
 
-.beneficios {
-    background: #FFFFFF;
-    padding: 20px;
-}
-
-ul {
+.produtos li {
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    text-align: right;
-    width: 20%;
-    margin-right: 15%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    /* border-color: #000000;
+    border-width: 2px;
+    border-style: solid; */
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
 
-.imagemBeneficios {
+.produtos li:hover {
+    border-color: #C78C79;
+}
+
+.produtos li:active {
+    border-color: #088C19;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background-image: url("./imagens/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px 0 0;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
     width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background-color: orange;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 2s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: darkorange;
+    transform: scale(1.2);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background-color: #555555;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 15px 8px;
+    width: 5%;
 }
