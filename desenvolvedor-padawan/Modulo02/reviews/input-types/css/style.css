@@ -1,0 +1,64 @@
+.caixa {
+    width: 50vw;
+    position: relative;
+    margin: 0 auto;
+    height: 50vh;
+}
+
+form {
+    display: inline-block;
+    top: 50%;
+    position: absolute;
+    border: solid 1px #ccc;
+    padding: 10px;
+}
+
+form fieldset {
+    display: block;
+    border: solid 2px #2222;
+    padding: 15px;
+}
+
+form legend {
+    display: inline;
+    font-size: 20px;
+    margin: 0 0 10px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+form label, .beneficios {
+    margin: 10px 10px 10px 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+form input, .beneficios > label {
+    margin: 10px auto;
+    font-weight: normal;
+    padding: 5px;
+}
+
+form .beneficios input {
+    margin: 0 10px 0 10px;
+    text-align: center;
+}
+
+form .btn-enviar {
+    margin: 10px auto;
+    width: 100px;
+    height: 30px;
+    background-color: orange;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+form .btn-enviar:hover {
+    background-color: darkorange;
+    transform: scale(1.15);
+}
