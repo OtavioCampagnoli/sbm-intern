@@ -19,7 +19,7 @@ flex;
     - flex-end: Itens se alinha na parte de baixo do container;
     - center: Itens se alinha no centro vertical do container;
     - baseline: Itens se alinham na linha base do container;
-    - stretch> Itens se esticam para preencher o container.
+    - stretch: Itens se esticam para preencher o container.
 
 #### flex-direction
 
@@ -32,3 +32,31 @@ os seguintes valores:
 - Quando se usa column: o justify-content que alinha os itens na horizontal passa a alinhar os 
 itens na vertical, e também o align-items que originalmente alinha na vertical os itens,
 passa a alinhar na horizontal;
+
+#### order
+
+- quando não conseguimos usar alinha um item especifico com align-items ou justify-content,
+temos que usar a prop order: passando um valor inteiro (negativo ou positivo) no elemeto que queremos
+mudar a ordem.
+    ```css
+        .yellow {
+            order: 1;
+        }
+    ```css
+
+#### align-self
+
+- Funciona igual o align-items porém para itens específicos.
+    - align-self: flex-end;
+        ```css
+        
+            #pond {
+                display: flex;
+                align-items: flex-start;
+        }
+
+        .yellow {
+            align-self: flex-end;
+        }```
+    - Exemplo:
+        ![alt text](image.png)
