@@ -60,3 +60,26 @@ mudar a ordem.
         }```
     - Exemplo:
         ![alt text](image.png)
+
+#### flex-wrap
+
+- Basicamente o flex-wrap é usado quando queremos espalhar ou não os itens:
+    - nowrap: todos itens são apertaos em uma única linha;
+    - wrap: itens se separam em linhas adicionais;
+    - wrap-reverse: itens se separam em linhas adicionais em reverso.
+    - ```css
+        #pond {
+            display: flex;
+            flex-wrap: wrap;
+            }
+        ```
+    - ![alt text](image-1.png)
+    - ```css
+        /*Usando flex-wrap para quebrar em várias colunas.*/
+            #pond {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        }
+        ```
+    - ![alt text](image-2.png)
