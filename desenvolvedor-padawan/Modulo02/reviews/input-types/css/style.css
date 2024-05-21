@@ -7,7 +7,7 @@
 
 form {
     display: inline-block;
-    top: 50%;
+    top: 35%;
     position: absolute;
     border: solid 1px #ccc;
     padding: 10px;
@@ -25,6 +25,10 @@ form legend {
     margin: 0 0 10px;
     font-weight: bold;
     text-decoration: underline;
+}
+
+form fieldset label { 
+    margin: 10px;
 }
 
 form label, .beneficios {
