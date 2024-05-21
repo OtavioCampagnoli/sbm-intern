@@ -83,3 +83,20 @@ mudar a ordem.
         }
         ```
     - ![alt text](image-2.png)
+
+#### flex-flow: column wrap
+
+- Basicament é um atalho para utilizar o flex-direction com o flex-wrap.
+    - sendo assim você passa o flex-direction e o flex-wrap
+    - Exemplo: 
+        ```css
+            #pond {
+        display: flex;
+        flex-flow: column wrap; 
+        /*
+        flex-direction: column;
+        flex-wrap: wrap;
+         */
+        }
+        ```
+    - ![alt text](image-3.png)
